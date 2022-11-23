@@ -11,5 +11,5 @@ Function Local-Changes
   [CmdLetBinding()]
   Param()
   # Added some code on the local machine
-  Write-Output "Hello from Local"
+  Write-Host -ForegroundColor Yellow "Hello from Local"
 }
